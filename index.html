@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Blog</title>
+    <link rel="icon" type="image/png"  href="icons/universe.png" sizes="32x32"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <a class="site-logo" href="index.html">SPACE BLOG</a>
+      <div class="navigation-top">
+        <a  href="pages/about.html">ABOUT US</a>
+        <a id="headButtonLogin" href="pages/login.html">LOGIN</a> 
+      </div>
+      <div class="quote">
+        <p>Two things are infinite: the universe and human stupidity.
+        <br>And I'm not sure about the universe.
+        <br> <i>Albert Einstein</i></p>
+      </div>
+    </header>
+    <div class="navigation-posts">
+      <button>All posts</button>
+      <button>Planet</button>
+      <button>Stars</button>
+      <button>Сosmonauts</button>
+      <button class="add-post">New Post</button>  
+    </div>
+    <section class="articles-list"></section>
+    <div class="footer">
+      <p>© Copyright 2020. All rights reserved.<br>
+        Site development: Vlad Sadouski & Yana Zayats.</p>
+    </div>
+    <script src="js/index.js" type="module" ></script>
+    <script src="js/load-feed.js" type="module"></script>
+  </body>
+</html>
